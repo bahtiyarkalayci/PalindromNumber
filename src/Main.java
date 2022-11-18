@@ -9,7 +9,7 @@ public class Main {
              reverseNumber = (reverseNumber * 10) + lastNumber;
              temp /= 10;
          }
-if (reverseNumber==temp)
+if (reverseNumber==number)
     return true;
 else
     return false;
@@ -22,6 +22,6 @@ else
         Scanner scanner=new Scanner(System.in);
         System.out.println("enter number");
         int num =scanner.nextInt();
-        isPalidrom(num);
+        System.out.println(isPalidrom(num));
     }
 }
